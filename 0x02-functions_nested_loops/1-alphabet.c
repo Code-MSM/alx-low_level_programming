@@ -8,14 +8,11 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	char letter;
+	char i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
