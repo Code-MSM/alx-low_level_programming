@@ -6,9 +6,10 @@
  *return: Returns the counted number
  */
 void print_to_98(int n)
-{
-	for (n = 0; n <= 98; n++)
+{	int n1
+	for (n1 = 0; n1 <= 98; n1++)
 	{
-		return (n);
+		n1 = n;
 	}
+	return (n);
 }
