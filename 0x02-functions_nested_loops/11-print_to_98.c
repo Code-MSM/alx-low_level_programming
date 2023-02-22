@@ -12,9 +12,8 @@ void print_to_98(int n)
 	scanf("%d", &n);
 	for (num = 0; num <= n; num++)
 	{
-		 printf("%d \t", num);
-		 printf('\n');
+		 printf("%d \t", n);
+		 _putchar('\n');
 	}
 	return ;
 }
-
