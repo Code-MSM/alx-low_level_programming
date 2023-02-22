@@ -6,7 +6,7 @@
  *return: Returns the counted number
  */
 void print_to_98(int n)
-{	int n1
+{	int n1;
 	for (n1 = 0; n1 <= 98; n1++)
 	{
 		n1 = n;
