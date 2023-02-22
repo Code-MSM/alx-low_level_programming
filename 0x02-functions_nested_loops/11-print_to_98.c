@@ -1,15 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_to_98 - rints all natural numbers from n to_98
- *@n: counts from n to_98
- *return: Returns the counted number
+ *print_to_98 - Prints number up to the inserted value
+ *@n:number to be scaned
+ *@num: number to start off thecount down
+ *return: the function returns nothing 
  */
 void print_to_98(int n)
-{	int n1;
-	for (n1 = 0; n1 <= 98; n1++)
+{
+	int num;
+	scanf("%d", &n);
+	for (num = 0; num <= n; num++)
 	{
-		n1 = n;
+		 printf("%d \t", num);
+		 printf('\n');
 	}
-	return (n);
+	return ;
 }
+
