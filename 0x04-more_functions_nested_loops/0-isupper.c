@@ -5,13 +5,13 @@
  *_isupper - a function that checks for uppercase character
  *@c: the value printed after case is detected
  *@_c: keeps the function inserted by the user
- *return: returns either one or zero based on the case
+ *Return: returns either one or zero based on the case
  */
 int _isupper(int c)
-{	char _c;
+{	char chr;
 
-	scanf("%c", &_c);
-	if (isupper(_c))
+	scanf("%c", &chr);
+	if (isupper(chr))
 	{	c = 1;
 		printf("%d", c);
 	}
