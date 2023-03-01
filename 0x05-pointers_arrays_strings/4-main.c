@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for 4-print_rev.
  *
  * Return: Always 0.
  */
