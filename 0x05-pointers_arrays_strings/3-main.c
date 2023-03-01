@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * main - check the string 
+ * main - check the code for 3-puts.c code.
  *
  * Return: Always 0.
  */
