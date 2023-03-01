@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _puts - write a function that prints a string followed by a new line
- * @str: an input string 
- * Return: Nothing
+ *_puts - write a function that prints a string followed by a new line
+ *@str: an input string
+ *Return: Nothing
  */
 void _puts(char *str)
 {
