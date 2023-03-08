@@ -1,4 +1,4 @@
-#include " main.h"
+#include "main.h"
 /**
  * actual_prime - calculates if a number is prime recursively
  * @n: number to evaluate
